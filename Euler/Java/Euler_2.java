@@ -3,13 +3,6 @@ import java.util.*;
 public class Euler_2{
    public static void main(String[] args){
       double total = 0, seq = 0, first = 0, second = 1;
-      
-      // for(int i = 3; i < 400; i++){
-//          seq = (i - 1) + (i - 2);
-//          if(seq % 2 == 0)
-//             total += seq;
-//             System.out.print(total + ", ");
-//       }
       for(int i = 0; i < 400; i++){
          seq = second + first;
          first = second;
